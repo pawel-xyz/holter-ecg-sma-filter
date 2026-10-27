@@ -45,7 +45,7 @@ High-frequency noise creates artificial local extrema (micro-peaks and valleys) 
 
 ---
 
-## 🩺 Conclusions & Medical Impact
+## Conclusions & Medical Impact
 
 The statistical and visual analyses confirm the absolute necessity of digital signal processing in diagnostic cardiology:
 
