@@ -7,7 +7,7 @@ The primary goal is to demonstrate how algorithmic smoothing prevents false medi
 
 ---
 
-## Stage 1: Embedded Signal Processing (C)
+## Stage 1: Embedded Signal Processing (Implemented in C)
 In the first stage, the raw electrocardiogram data is processed mimicking a real-time embedded medical device.
 
 * **Raw Data Generation:** The system captures uncalibrated, noisy ECG signals (`Holter_Raw_Data.csv`), which include high-frequency artifacts typical for patient movement or electrode interference.
@@ -16,7 +16,7 @@ In the first stage, the raw electrocardiogram data is processed mimicking a real
 
 ---
 
-## Stage 2: Data Analytics & Visualization (Python)
+## Stage 2: Data Analytics & Visualization (Implemented in Python)
 The generated datasets (Raw vs. SMA) are imported into Python using `pandas` and `numpy`. The analysis validates the filter's efficiency through three distinct analytical steps using `matplotlib`.
 
 ### Step 2.1: Signal Topology Comparison
