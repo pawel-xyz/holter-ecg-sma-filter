@@ -47,8 +47,8 @@ High-frequency noise creates artificial local extrema (micro-peaks and valleys) 
 
 ## Conclusions & Medical Impact
 
-The statistical and visual analyses confirm the absolute necessity of digital signal processing in diagnostic cardiology:
+The statistical and visual analyses confirm the absolute necessity of digital signal processing in diagnostic cardiology. 
 
-1. **Prevention of False Arrhythmia Alarms:** The reduction of trend changes from 30 to 5 in a single segment proves that raw data would trigger continuous false alarms for ventricular tachycardia or atrial fibrillation. The SMA filter ensures the heartbeat detection algorithms only count actual cardiac cycles.
+1. **Prevention of False Arrhythmia Alarms:** The reduction of trend changes from 30 (raw data) to 5 (filtered data) in a single segment proves that raw data would trigger continuous false alarms for ventricular tachycardia or atrial fibrillation. The SMA filter ensures the heartbeat detection algorithms only count actual cardiac cycles.
 2. **Isoelectric Line Stabilization:** The significant drop in standard deviation during the heart's resting phase allows for accurate detection of ST-segment elevation or depression, which is the primary indicator of myocardial ischemia (heart attack).
 3. **Accurate HRV (Heart Rate Variability) Analysis:** By removing micro-spikes that shift the highest point of the R-wave, the filter allows for precise millisecond-level measurement of intervals between beats, enabling correct assessment of the patient's autonomic nervous system.
